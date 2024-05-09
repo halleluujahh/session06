@@ -1,0 +1,37 @@
+.header{
+    min-height: 300px;
+    background-color: green;
+}
+.main{
+    min-height: 800px;
+    display: flex;
+}
+.left_content{
+    width: 50%;
+    height: 800px;
+}
+.right_content{
+    width: 50%;
+    height: 800px;
+}
+.left_top_item{
+    min-height: 75%;
+    background-color: rgb(150,200,255);
+
+}
+.left_bottom_item{
+    min-height: 25%;
+    background-color: rgb(155, 255, 150);
+}
+.right_top_item{
+    min-height: 25%;
+    background-color: rgb(250, 233, 150);
+}
+.right_middle_item{
+    min-height: 25%;
+    background-color: rgb(250, 187, 150);
+}
+.right_bottom_item{
+    min-height: 50%;
+    background-color: rgb(211, 71, 71);
+}

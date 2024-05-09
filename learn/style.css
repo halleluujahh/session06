@@ -1,0 +1,51 @@
+*{
+    margin: 0
+}
+.header{
+    min-height: 60px;
+    background-color: rgb(39, 77, 230);
+}
+.main{
+    display: flex;
+    min-height: 800px;
+    justify-content: space-between;
+}
+.left_side_bar{
+    width: 300px;
+    background-color: rgb(66, 237, 203);
+}
+.body{
+    width: 600px;
+    background-color: rgb(85,106,242);
+}
+.right_side_bar{
+    width: 300px;
+    background-color: rgb(182,85,242);
+}
+.footer{
+    min-height: 120px;
+    background-color: rgb(54, 52, 53);
+}
+
+
+/* ===================================== Responsive ===================================== */
+@media only screen and (max-width: 756px){
+    .main{
+        display: block;
+    }
+    .left_side_bar{
+        width: 100%;
+        background-color: rgb(66, 237, 203);
+        min-height: 270px;
+    }
+    .body{
+        width: 100%;
+        min-height: 270px;
+        background-color: rgb(85,106,242);
+    }
+    .right_side_bar{
+        width: 100%;
+        min-height: 270px;
+        background-color: rgb(182,85,242);
+    }
+}

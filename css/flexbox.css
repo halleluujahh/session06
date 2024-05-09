@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    min-height: 500px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item1{
+    min-width: 300px;
+    background-color: red;
+}
+.item2{
+    min-width: 300px;
+    background-color: blue;
+}
+.item3{
+    min-width: 300px;
+    background-color: green;
+}

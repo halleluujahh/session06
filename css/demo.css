@@ -1,0 +1,41 @@
+*{
+    margin: 0
+}
+.header{
+    min-height: 50px;
+    background-color: #fff;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nav{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.item{
+    margin: auto 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Cabin, sans-serif;
+}
+.main_video{
+    display: flex;
+    justify-content: space-around;
+}
+.video_content{
+    width: 45%;
+}
+h1{
+    color:red;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Cabin, sans-serif;
+}
+p{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    font-family: Cabin, sans-serif;
+}
